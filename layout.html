@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Gridlayout</title>
+    <style>
+           .inner1{
+               height:100px;
+               width:100px;
+               background-color: black;
+               border-style: solid;
+               border-color: rgb(12, 12, 11);
+           }
+           .inner1:hover{
+               background-color: crimson;
+               font-size:30px;
+           
+           }
+           .inner2:hover{
+               background-color: crimson;
+               font-size:30px;
+           }
+           .inner2{
+               height:100px;
+               width:100px;
+               background-color:white;
+               border-style: solid;
+               border-color:black;
+           }
+           .container{
+               display:flex;
+           }
+    
+     </style>
+</head>
+<body>
+    
+    
+     <script type="text/javascript" >
+         col=prompt("Enter the number for column");
+          row=prompt("Enter the number for row");
+
+          for(j=0;j<row;j++)
+         { document.write("<div class='container'>");
+
+         for(i=0;i<col;i++)
+        {   if((i+j)%2==0)
+            document.write("<div class='inner1'>"+i+"</div>");
+            else
+            document.write("<div class='inner2'>"+i+"</div>");
+        }   
+         document.write("</div>");
+         }
+
+     </script>
+    
+</body>
+</html>

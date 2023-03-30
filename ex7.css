@@ -1,0 +1,115 @@
+.container{
+    display:flex;
+    height:100%;
+    width: 100%;
+    flex-direction:row;
+    align-items: center;
+    justify-items:space-around;
+    flex-wrap: wrap;
+}
+
+.container>.heading{
+    height: 10%;
+    width: 100%;
+    margin-top:20px;
+    align-items: left;
+    display: flex;
+    background-color: grey;
+}
+.container>.sub{ 
+  right: 300px;
+	height:6%;
+	width:100%;
+  background-color: grey;
+
+}
+
+.container>.navb> nav {          
+    font-size:20px;  
+    position:relative;
+    top:0px;
+    width:100%
+   }
+  .container>.navb>nav ol {
+      list-style:none;
+      margin:0;
+      padding:0;        
+      
+      }
+.container>.navb> nav ol a {
+  text-decoration: none;
+}
+
+.container>.navb> nav ol li {
+  background-color:rgb(9, 195, 241);
+  color:white;
+  margin:5px;
+  padding-left:20px;
+  float:left;
+  width:170px;
+  box-shadow:2px 2px 3px rgb(255, 0, 0);
+}
+.container>.navb>nav ol li:hover {
+  background-color:rgb(255, 255, 255);
+  color:aquamarine;
+}
+.container>.back{
+  width:100%;
+  height:105%;
+  background-color:pink;
+  align-items:right;
+  font-size:40px;
+  font-style:Bold;
+  /* background-image:url("banasthali-vidyapith-pptpptx-1-638.webp"); */
+  background-size:50%;
+  text-align: right;
+ display:flex;
+}
+.container>.back>.b1{
+  /* background-color: rgba(42, 255, 4, 0.5); */
+  width:30%;
+  height:90%;
+  /* right: -800px; */
+float:left;
+/* align-items: right; */
+
+margin-left:367px;
+text-align-last:right;
+font-size: larger;
+font-weight: bolder;
+font-style:oblique;
+color: rgb(255, 253, 240);
+}
+h1{
+  color: blue;
+}
+p{
+  color: rgb(0, 0, 0);
+}
+.container>.tb> nav {          
+    font-size:30px;  
+    position:absolute;
+    right: -180px;
+    top:0px;
+    width:100%;
+    display:flex;
+    background-color: grey;
+   }
+  .container>.tb>nav ol {
+      list-style:none;
+      margin: 0;
+      padding:0;
+      width:100%;
+     }
+.container>.tb> nav ol a {
+  text-decoration: none;
+}
+
+.container>.tb> nav ol li {
+  padding-right: 10px;
+  size: 173px;
+   float:left;
+}
+
+
+

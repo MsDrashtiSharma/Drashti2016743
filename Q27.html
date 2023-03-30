@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Clock</title>
+</head>
+<body>
+    <div id='clock'> </div>
+
+    <script type="text/javascript">
+    function clock()
+    {
+        d=new Date();
+        hh=d.getHours();
+        mm=d.getMinutes();
+        ss=d.getSeconds();
+
+        cTime=hh+":"+mm+":"+ss;
+
+        block=document.getElementById('clock');
+        block.innerHTML=cTime;
+    }
+    setInterval(clock,1000);
+    </script>
+</body>
+</html>

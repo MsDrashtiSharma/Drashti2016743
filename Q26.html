@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Counter</title>
+    <style>
+        #counter{
+             border-style:solid;
+             background-color:cornsilk;
+             width:5%;
+             height:10%;
+        }
+    </style>
+</head>
+<body>
+    <div id="counter"> </div>
+    <button onclick="x=setInterval(start,1000)">Start</button>
+    <button onclick="clearInterval(x)">Stop</button>
+
+    <script type="text/javascript">
+    count=0;
+    function start()
+    {
+        block=document.getElementById('counter');
+        block.innerHTML=count;
+
+        count++;
+    }
+    </script>
+</body>
+</html>
